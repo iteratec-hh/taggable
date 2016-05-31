@@ -19,6 +19,7 @@ plugins {
 version "2.0.1-SNAPSHOT"
 group "org.grails.plugins"
 
+apply plugin: "maven"
 apply plugin: 'maven-publish'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
